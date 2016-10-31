@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.section{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 85px 8px 8px 8px;
+}
+
+#section2, #section4{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    height: 80px;
+    background-color: darkorange;
+    color: black;
+    width: 100%;
+    line-height: 80px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 100;
+}
+
+nav div{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    font-size: 3rem;
+    position: absolute;
+    right: 0;
+}
+
+nav div i{
+    color: rebeccapurple;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dropDown{
+    background-color: #ff6005;
+    height: 240px;
+    width: 200px;
+    position: fixed;
+    top: -240px;
+    right: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropDown div {
+    height: 25%;
+    width: 100%;
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.dropDown div:hover{
+    background-color: #ae3e05;
+}
+
+.dropDown div h1{
+    margin: auto;
+}
